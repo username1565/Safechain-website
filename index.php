@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>Safechain</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Style CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+    <!-- FontAwesome CSS -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- Fontello CSS -->
+    <link rel="stylesheet" type="text/css" href="css/fontello.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+<![endif]-->
+</head>
+
+<body>
+    <!-- header-section-->
+    <div class="header-wrapper fixed-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-2 col-lg-3 col-md-12 col-sm-12 col-12">
+                    <div class="logo"> <a href="index.html" style="font-size:30px; font-weight:bold; color:white;">Safechain </a> </div>
+                </div>
+                <div class="col-xl-7 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <!-- navigations-->
+                    <div class="navigation">
+                        <div id="navigation">
+                            <ul>
+                                <li class="active"><a href="#">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                               <li><a href="#wallets">Wallets</a></li>
+							   <li><a href="#roadmap">Roadmap</a></li>
+							   <li><a href="#specs">Coin specifications</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /.navigations-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /. header-section-->
+    <!--  hero-section -->
+    <div id="particles-js" class="hero-section">
+    </div>
+    <div class="hero-container">
+        <div class="container">
+            <div class="row ">
+                <div class="offset-xl-2 col-xl-8 offset-lg-2 col-lg-8 col-md-12 col-sm-12 col-12 text-center ">
+                    <!--  hero-block-->
+                    <div class="hero-block">
+                        <h1 class="hero-title mb30">What is Safechain?</h1>
+                        <p class="text-white">Safechain is a Safemoon crypto spin-off .
+It's not a Safemoon competitor,we like to cosider it as litecoins stand for bitcoin</p>
+                        <a href="#about" class="btn btn-default btn-lg">Get Started</a>
+                    </div>
+                    <!--  /.hero-block-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  /.hero-section -->
+    <!--  about-section -->
+    <div class="space-medium" id="about">
+        <div class="container">
+            <div class="row ">
+                <!--  section-title -->
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
+                    <div class="section-title">
+                        <h2>About</h2>
+                    </div>
+                </div>
+                <!--  /.section-title -->
+            </div>
+            <!-- about -->
+            <div class="row ">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 ">
+                    <div class="mb20">
+                        <p><h3>What is a blockchain?</h3>Blockchain is a specific type of database.
+It differs from a typical database in the way it stores information; blockchains store data in blocks that are then chained together. 
+As new data comes in it is entered into a fresh block. Once the block is filled with data it is chained onto the previous block, which makes the data chained together in chronological order.
+Different types of information can be stored on a blockchain but the most common use so far has been as a ledger for transactions. 
+In Bitcoin’s case, blockchain is used in a decentralized way so that no single person or group has control—rather, all users collectively retain control.
+Decentralized blockchains are immutable, which means that the data entered is irreversible.</p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 ">
+                    <div class="mb20">
+                        <p><h3>What is Safechain?</h3>Safechain is a Safemoon crypto spin-off .
+It's not a Safemoon competitor,we like to cosider it as litecoins stand for bitcoin
+<br /><br />
+<b>SAFECHAIN IS A TOKEN?</b><br />
+No, safechain have his own unique blockchain!
+It comes with a proprietary blockchain and wallet at launch</p>
+                    </div>
+                </div>
+            </div>
+            <!-- /.about description -->
+        </div>
+    </div>
+    <!-- /.about -->
+    <!--  buy/sell-section -->
+    <div class="space-medium bg-light" id="wallets">
+        <div class="container">
+		<h2>Wallets</h2>
+            <div class="row ">
+                <!--  buy/sell-image -->
+                <div class="col-xl-2 col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="" style="text-align:center;">
+                        <img src="https://cdn4.iconfinder.com/data/icons/proglyphs-free/512/Windows-512.png" alt="" width="100"><br />
+						<b><a href="https://github.com/safechaincrypto/blockchain/releases/download/safechain/safechain-qt.exe">Windows</a></b>
+                    </div>
+                </div>
+				<!--
+				<div class="col-xl-2 col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="" style="text-align:center;">
+                        <img src="https://cdn4.iconfinder.com/data/icons/proglyphs-free/512/Linux_-_Tux-512.png" alt="" width="100"><br />
+						<b>Linux (<a href="https://github.com/BarrelCrudeCoin/BarrelCrudeCoin/releases/download/v1.0.3/barrelcrudecoin_linux-gnu64.tar.gz">64 Bits</a>)</b>
+                    </div>
+                </div>
+				<div class="col-xl-2 col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="" style="text-align:center;">
+                        <img src="https://cdn4.iconfinder.com/data/icons/proglyphs-free/512/Apple-512.png" alt="" width="100"><br />
+						<b><a href="https://github.com/BarrelCrudeCoin/BarrelCrudeCoin/releases/download/v1.0.3/barrelcrudecoin_macosx64.dmg">MacOSX</a></b>
+                    </div>
+                </div>
+				<div class="col-xl-2 col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="" style="text-align:center;">
+                        <img src="https://cdn4.iconfinder.com/data/icons/proglyphs-free/512/Android-512.png" alt="" width="100"><br />
+						<b><a href="https://github.com/BarrelCrudeCoin/BarrelCrudeCoin/releases/download/v1.0.2/barrelcrudecoin-1.0.2-android.apk">Android</a></b>
+                    </div>
+                </div>-->
+				<div class="col-xl-2 col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="" style="text-align:center;">
+                        <img src="https://cdn1.iconfinder.com/data/icons/picons-social/57/github_rounded-512.png" alt="" width="100"><br />
+						<b><a href="https://github.com/safechaincrypto/blockchain">Source</a></b>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  buy/sell-section -->
+    <!--  deposite options -->
+    <div class="bg-secondary pinside30">
+        <div class="container">
+            <div class="row ">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="mt-3">
+                        <h4>Our socials</h4>
+                    </div>
+                </div>
+                <div class="offset-xl-1 col-xl-5 offset-lg-1 col-lg-5 col-md-6 col-sm-12 col-12">
+                    <div class="">
+                        <span style="width:54px; height:54px;"><a href="https://discord.gg/QWfvQQnP" class="zoomimg mr-2" style="width:54px; height:54px;"><img src="https://cdn3.iconfinder.com/data/icons/popular-services-brands-vol-2/512/discord-48.png" width="54" height="54" alt=""></a></span>
+                        <!--<span style="width:54px; height:54px;"><a href="#" class="zoomimg mr-2" style="width:54px; height:54px;"><img src="https://cdn0.iconfinder.com/data/icons/social-network-24/512/Telegram-48.png" width="54" height="54" alt=""></a></span>
+                        <span style="width:54px; height:54px;"><a href="#" class="zoomimg mr-2" style="width:54px; height:54px;"><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/facebook_circle_color-48.png" width="54" height="54" alt=""></a></span>-->   
+                        <span style="width:54px; height:54px;"><a href="https://twitter.com/safechaincrypto" class="zoomimg mr-2" style="width:54px; height:54px;"><img src="https://cdn3.iconfinder.com/data/icons/capsocial-round/500/twitter-48.png" width="54" height="54" alt=""></a></span>                 
+					</div>
+				
+				</div>
+            </div>
+        </div>
+    </div>
+    <!--  /.deposite options -->
+
+	    <div class="space-medium" id="roadmap">
+        <div class="container">
+            <div class="row ">
+                <div class="offset-xl-3 col-xl-6 offset-lg-3 col-lg-6 col-md-12 col-sm-12 col-12 text-center">
+                    <div class="section-title">
+                        <h2>Roadmap</h2>
+                        <p>The roadmap of Safechain is comming soon!</p>
+
+					</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<div class="space-medium bg-light" id="specs">
+        <div class="container">
+            <div class="row ">
+                <!-- feature-left -->
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="feature-left">
+                        <div class="feature-icon"><i class="icon-shield"></i></div>
+                        <div class="feature-content">
+                            <h4>Coin info</h4>
+                            <ul>
+								<li>Name: Safechain</li>
+								<li>Ticker: SFC</li>
+								<li>Type: PoW/PoS</li>
+								<li>Max block size: 8MB PoW</li>
+								<li>Supply: 600000000 (Free distribution + Initial investors supply) + 105120000 (POW security and reward) Pow Blocks: 1.051.200</li>
+							</ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.feature-left -->
+                <!-- feature-left -->
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="feature-left">
+                        <div class="feature-icon"><i class="icon-brainstorming"></i></div>
+                        <div class="feature-content">
+                            <h4>Mining</h4>
+							<ul>
+								<li>Algo: QUBIT</li>
+								<li>Blocktime: 30 Seconds</li>
+								<li>Block reward: Blocks 10-1051200: 100 SFC (50% to foundation + 50% to miners) 1 year PoW mining</li>
+								<li>Diff time: 1 Block</li>
+							</ul>
+						</div>
+                    </div>
+                </div>
+                <!-- /.feature-left -->
+                <!-- feature-left -->
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="feature-left">
+                        <div class="feature-icon"><i class="icon-smartphone"></i></div>
+                        <div class="feature-content">
+                            <h4>Links</h4>
+							<ul>
+								<li><a href="http://faucet.mining.moe/sfc">Faucet</a></li>
+								<li><a href="https://site.letshash.it/explorer/SFC">Blockexplorer</a></li>
+								<li><a href="https://solopools.net/">Solopools.net</a></li>
+								<li><a href="https://pool.letshash.it/">Letshash.it</a></li>
+								<li><a href="https://www.exbitron.com/trading/sfcusdt">Exbitron.com - SFC-USDT</a></li>
+								<li><a href="https://www.exbitron.com/trading/sfcbtc">Exbitron.com - SFC-BTC</a></li>
+								<li><a href="https://www.exbitron.com/trading/sfcdoge">Exbitron.com - SFC-DOGE</a></li>
+							</ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.feature-left -->
+            </div>
+        </div>
+    </div>
+
+
+	<div class="footer">
+        <div class="container">
+            <div class="row ">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
+                   
+                </div>
+            </div>
+            <hr class="footer-line">
+            <div class="row ">
+                <!-- footer-about -->
+                <div class="col-xl-6 col-lg-6 col-md-4 col-sm-6 col-6 ">
+                    <div class="footer-widget ">
+                         <div class="ft-logo"><img src="https://cdn.discordapp.com/attachments/872386536639979520/875034632649851001/logo.png" height="10" width="10"/></div>
+                    </div>
+                </div>
+                <!-- /.footer-about -->
+                <!-- footer-links -->
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 ">
+                    <div class="footer-widget ">
+                        <div class="footer-title">Wallets</div>
+                        <ul class="list-unstyled">
+                            <li><a href="https://github.com/safechaincrypto/blockchain/releases/download/safechain/safechain-qt.exe">Windows wallet</a></li>
+                            <li><a href="https://github.com/safechaincrypto/blockchain">Source code</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /.footer-links -->
+                <!-- footer-links -->
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 ">
+                    <div class="footer-widget ">
+                        <div class="footer-title">Socials</div>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Google +</a></li>
+                            <li><a href="#">Linked In</a></li>
+                            <li><a href="#">Facebook</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /.footer-links -->
+                <!-- tiny-footer -->
+            </div>
+            <div class="row ">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center ">
+                    <div class="tiny-footer">
+                        <p>Copyright Safechain 2021</p>
+                    </div>
+                </div>
+                <!-- /. tiny-footer -->
+            </div>
+        </div>
+    </div>
+
+
+    <a href="javascript:" id="return-to-top"><i class="fa fa-angle-up"></i></a>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/menumaker.js"></script>
+    <script src="js/return-to-top.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script>
+    /* ---- particles.js config ---- */
+    /* -----------------------------------------------
+/* How to use? : Check the GitHub README
+/* ----------------------------------------------- */
+
+    /* To load a config file (particles.json) you need to host this demo (MAMP/WAMP/local)... */
+    /*
+    particlesJS.load('particles-js', 'particles.json', function() {
+      console.log('particles.js loaded - callback');
+    });
+    */
+
+    /* Otherwise just put the config content (json): */
+
+    particlesJS('particles-js',
+
+        {
+            "particles": {
+                "number": {
+                    "value": 80,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ff9f2a"
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    },
+                    "image": {
+                        "src": "img/github.svg",
+                        "width": 100,
+                        "height": 100
+                    }
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": false,
+                    "anim": {
+                        "enable": false,
+                        "speed": 1,
+                        "opacity_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 5,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 40,
+                        "size_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#ff9f2a",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 6,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 400,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 400,
+                        "size": 40,
+                        "duration": 2,
+                        "opacity": 8,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 200
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true,
+            "config_demo": {
+                "hide_card": false,
+                "background_color": "#b61924",
+                "background_image": "",
+                "background_position": "50% 50%",
+                "background_repeat": "no-repeat",
+                "background_size": "cover"
+            }
+        }
+
+    );
+    </script>
+</body>
+
+</html>
