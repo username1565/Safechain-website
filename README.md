@@ -1,5 +1,5 @@
 # Safechain-website
-Website for Safechain (SFC)
+Website for [Safechain (SFC)](https://miningpoolstats.stream/safechain)
 
 This web-site was been sucessfully hosted,
 
